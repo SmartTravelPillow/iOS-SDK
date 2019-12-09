@@ -1,0 +1,9 @@
+
+# Disable sending stats
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+platform :ios, '11.0'
+
+target 'SDK Demo' do
+    pod "Color-Picker-for-iOS"
+end
