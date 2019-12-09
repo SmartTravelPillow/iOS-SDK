@@ -1,0 +1,6 @@
+framework module SmartTravelPillow {
+  umbrella header "SmartTravelPillow.h"
+
+  export *
+  module * { export * }
+}
