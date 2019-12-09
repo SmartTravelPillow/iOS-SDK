@@ -7,14 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89374B840E9BCABA41F9D1B1 /* libPods-SDK Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E954446CE9ADD697BC88C7A8 /* libPods-SDK Demo.a */; };
-		D5166828235B447D00CFB312 /* SmartTravelPillow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5166827235B447D00CFB312 /* SmartTravelPillow.framework */; };
-		D5166829235B447D00CFB312 /* SmartTravelPillow.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5166827235B447D00CFB312 /* SmartTravelPillow.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60D38D86C67C3E963669DAEB /* Pods_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ECC3CB8893C36E7F103778 /* Pods_SDK_Demo.framework */; };
 		D55804A223823EBA0020A88F /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D558049F23823EB90020A88F /* AccountManager.swift */; };
 		D55804A323823EBA0020A88F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55804A023823EB90020A88F /* MainViewController.swift */; };
 		D55804A423823EBA0020A88F /* AccountSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55804A123823EBA0020A88F /* AccountSwitchViewController.swift */; };
-		D57DD0382354A15F00C68C82 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57DD0352354A15200C68C82 /* AFNetworking.framework */; };
-		D57DD0392354A15F00C68C82 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D57DD0352354A15200C68C82 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D595AEDC2375186200AF6F93 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D595AEDB2375186200AF6F93 /* README.md */; };
 		D5EA784923503F59000E4271 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EA784823503F59000E4271 /* AppDelegate.swift */; };
 		D5EA785023503F59000E4271 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EA784E23503F59000E4271 /* Main.storyboard */; };
@@ -29,8 +25,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D57DD0392354A15F00C68C82 /* AFNetworking.framework in Embed Frameworks */,
-				D5166829235B447D00CFB312 /* SmartTravelPillow.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,14 +32,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04ECC3CB8893C36E7F103778 /* Pods_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA61470E8F82DE32C8C728DC /* Pods-SDK Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDK Demo.release.xcconfig"; path = "Target Support Files/Pods-SDK Demo/Pods-SDK Demo.release.xcconfig"; sourceTree = "<group>"; };
 		C30D1EF04C1CD5A7D48F0FCE /* Pods-SDK Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDK Demo.debug.xcconfig"; path = "Target Support Files/Pods-SDK Demo/Pods-SDK Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		D5166827235B447D00CFB312 /* SmartTravelPillow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = SmartTravelPillow.framework; path = ../SmartTravelPillow.framework; sourceTree = SOURCE_ROOT; };
 		D558049F23823EB90020A88F /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
 		D55804A023823EB90020A88F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D55804A123823EBA0020A88F /* AccountSwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSwitchViewController.swift; sourceTree = "<group>"; };
 		D56308B523531CD100820AB0 /* OCBHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCBHeader.h; sourceTree = "<group>"; };
-		D57DD0352354A15200C68C82 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = ../Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 		D595AEDB2375186200AF6F93 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D5EA784523503F59000E4271 /* SDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EA784823503F59000E4271 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +46,6 @@
 		D5EA785123503F5C000E4271 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5EA785423503F5C000E4271 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5EA785623503F5C000E4271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E954446CE9ADD697BC88C7A8 /* libPods-SDK Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDK Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D57DD0382354A15F00C68C82 /* AFNetworking.framework in Frameworks */,
-				89374B840E9BCABA41F9D1B1 /* libPods-SDK Demo.a in Frameworks */,
-				D5166828235B447D00CFB312 /* SmartTravelPillow.framework in Frameworks */,
+				60D38D86C67C3E963669DAEB /* Pods_SDK_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,9 +107,7 @@
 		D5EA788923504142000E4271 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D57DD0352354A15200C68C82 /* AFNetworking.framework */,
-				E954446CE9ADD697BC88C7A8 /* libPods-SDK Demo.a */,
-				D5166827235B447D00CFB312 /* SmartTravelPillow.framework */,
+				04ECC3CB8893C36E7F103778 /* Pods_SDK_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,7 +124,7 @@
 				D5EA784223503F59000E4271 /* Frameworks */,
 				D5EA784323503F59000E4271 /* Resources */,
 				D5EA788F235042C1000E4271 /* Embed Frameworks */,
-				D55804AB23850C050020A88F /* Copy Carthage Frameworks */,
+				2D8F559310C5AC1E6F4E45A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +184,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2D8F559310C5AC1E6F4E45A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDK Demo/Pods-SDK Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDK Demo/Pods-SDK Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDK Demo/Pods-SDK Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		623619ACF0F378C36ACA87D2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,27 +221,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D55804AB23850C050020A88F /* Copy Carthage Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/../SmartTravelPillow.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/AFNetworking.framework",
-			);
-			name = "Copy Carthage Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# 因为带模拟器架构的 framework 通过 Xcode 11 导出时会报 IPA 错误\n# 需特殊处理一下\n/usr/local/bin/carthage copy-frameworks\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -399,11 +383,6 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../Carthage/Build/iOS\"",
-					"\"$(SRCROOT)/../\"",
-				);
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -427,11 +406,6 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../Carthage/Build/iOS\"",
-					"\"$(SRCROOT)/../\"",
-				);
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

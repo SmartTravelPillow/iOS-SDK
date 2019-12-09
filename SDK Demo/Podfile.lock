@@ -1,16 +1,38 @@
 PODS:
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
   - Color-Picker-for-iOS (2.0.2)
+  - SmartTravelPillow (1.0.0):
+    - AFNetworking/NSURLSession (~> 3)
 
 DEPENDENCIES:
   - Color-Picker-for-iOS
+  - SmartTravelPillow (from `https://github.com/SmartTravelPillow/iOS-SDK.git`)
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - Color-Picker-for-iOS
 
-SPEC CHECKSUMS:
-  Color-Picker-for-iOS: 4980589b3e3cfe7198f227dd50be9adb02d8bc0b
+EXTERNAL SOURCES:
+  SmartTravelPillow:
+    :git: https://github.com/SmartTravelPillow/iOS-SDK.git
 
-PODFILE CHECKSUM: 10f3094b2a88f1f532f9f593da81d1fe7914ffad
+CHECKOUT OPTIONS:
+  SmartTravelPillow:
+    :commit: afc250fe4494f66b5a38ccf2f7508b61451ced30
+    :git: https://github.com/SmartTravelPillow/iOS-SDK.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Color-Picker-for-iOS: 4980589b3e3cfe7198f227dd50be9adb02d8bc0b
+  SmartTravelPillow: b194950a36dd17f15fafc4bc503cded37db4bf6b
+
+PODFILE CHECKSUM: 254dcb134ffaacae2e4692c4f62d8bdbde5264b9
 
 COCOAPODS: 1.8.4

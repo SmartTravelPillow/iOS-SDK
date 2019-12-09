@@ -2,8 +2,16 @@
 # Disable sending stats
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 
-platform :ios, '11.0'
-
 target 'SDK Demo' do
-    pod "Color-Picker-for-iOS"
+    platform :ios, '11.0'
+
+    # SDK 需要，如不想用 use_frameworks!，可用 Carthage 或手动导入
+    use_frameworks!
+
+    # SDK 引入
+    pod 'SmartTravelPillow', :git => 'https://github.com/SmartTravelPillow/iOS-SDK.git'
+
+
+    # 选取颜色用
+    pod 'Color-Picker-for-iOS'
 end
