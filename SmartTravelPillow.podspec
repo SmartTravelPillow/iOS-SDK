@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   }
   s.author           = '浩雨科技'
   s.source           = {
-    :http => 'https://github.com/SmartTravelPillow/iOS-SDK/releases/download/1.0.0/1.0.0.zip'
+    :http => 'https://github.com/SmartTravelPillow/iOS-SDK/releases/download/1.0.1/Carthage.zip'
   }
 
   s.requires_arc = true
