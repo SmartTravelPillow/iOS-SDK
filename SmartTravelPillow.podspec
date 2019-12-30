@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SmartTravelPillow'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '浩雨护颈托枕 iOS SDK'
 
   s.homepage         = 'http://hykj-global.com'
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
 
   s.dependency 'AFNetworking/NSURLSession', '~> 3'
-  s.vendored_frameworks = "SmartTravelPillow.framework"
+  s.vendored_frameworks = "**/SmartTravelPillow.framework"
 end
