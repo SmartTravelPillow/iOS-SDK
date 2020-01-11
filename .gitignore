@@ -45,3 +45,6 @@ fastlane/sign&cert
 *.save
 ._*
 *.bak
+
+# 忽略 lock file，以便用户试用时始终安装最新的
+/SDK Demo/Podfile.lock
