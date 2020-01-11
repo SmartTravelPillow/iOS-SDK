@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name             = 'SmartTravelPillow'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '浩雨护颈托枕 iOS SDK'
 
   s.homepage         = 'http://hykj-global.com'
   s.license          = {
     :type => 'private',
     :text => <<-LICENSE
-      Copyright © 北京浩雨科技有限公司 2019 All Right Reserved.
+      Copyright © 北京浩雨科技有限公司 2019-2020 All Right Reserved.
       LICENSE
   }
   s.author           = '浩雨科技'
