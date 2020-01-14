@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SmartTravelPillow'
-  s.version          = '1.0.2'
+  s.version          = '1.1.0'
   s.summary          = '浩雨护颈托枕 iOS SDK'
 
   s.homepage         = 'http://hykj-global.com'
@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   }
   s.author           = '浩雨科技'
   s.source           = {
-    :http => 'https://github.com/SmartTravelPillow/iOS-SDK/releases/download/1.0.1/Carthage.zip'
+    :http => 'https://github.com/SmartTravelPillow/iOS-SDK/releases/download/1.1.0/Carthage.zip'
   }
 
   s.requires_arc = true
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '9.0'
 
   s.dependency 'AFNetworking/NSURLSession', '~> 3'
   s.vendored_frameworks = "**/SmartTravelPillow.framework"
