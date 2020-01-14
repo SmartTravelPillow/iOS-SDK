@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SmartTravelPillow'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = '浩雨护颈托枕 iOS SDK'
 
   s.homepage         = 'http://hykj-global.com'
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   }
   s.author           = '浩雨科技'
   s.source           = {
-    :http => 'https://github.com/SmartTravelPillow/iOS-SDK/releases/download/1.1.0/Carthage.zip'
+    :http => 'https://github.com/SmartTravelPillow/iOS-SDK/releases/download/1.1.1/Carthage.zip'
   }
 
   s.requires_arc = true
